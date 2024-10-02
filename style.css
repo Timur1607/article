@@ -20,8 +20,10 @@
     border-radius: 4px;
 }
 .aricle__img{
-    max-width: 100%;
-    /* height: 160px; */
+    max-width: 272px;
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
 }
 .price__card{
     display: block;
@@ -33,12 +35,13 @@
     display: flex;
     justify-content: space-between;
     gap: 126px;
-    padding-bottom: 8px;
+    height: 45px;
+    /* padding-bottom: 8px; */
 }
 
 .info{
     padding: 8px;
-    
+    height: 189px;
 }
 
 .article__info{
@@ -46,19 +49,24 @@
     font-family: "Rubik", sans-serif;
     font-size: 16px;
     font-weight: 400;
+    line-height: 150%;
 }
 
 .article__button{
     width: 256px;
-    height: 40px;
+    /* height: 40px; */
     color: #70C05B;
-    border: 1px solid #70C05B;
+    border: 1.35px solid #70C05B;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
     /* display: flex;
     align-items: flex-end; */
-    margin-top: 16px;
+    margin-top: 8px;
     border-radius: 4px;
     background-color: white;
-
+    cursor: pointer;
+    padding: 8px;
 }
 
 .article__stars{
@@ -92,6 +100,7 @@
     color: #BFBFBF;
     display: flex;
     justify-content: flex-start;
+    line-height: 150%;
     }
 .nocard__info{
     font-family: "Rubik", sans-serif;
@@ -101,14 +110,66 @@
     color: #BFBFBF;
     display: flex;
     justify-content: flex-end;
+    line-height: 150%;
 }
 .card__price{
     font-family: "Rubik", sans-serif;
     font-weight: 700;
     font-size: 18px;
+    line-height: 150%;
 }
 .nocard__price{
     font-family: "Rubik", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
 }
+
+.article__top{
+    position: relative;
+    height: 160px;
+}
+
+.article__discount{
+    position: absolute;
+    border: 1px solid #FF6633;
+    width: 56px;
+    height: 32px;
+    background-color: #FF6633;
+    color: white;
+    border-radius: 4px;
+    bottom: 10px;
+    left: 10px;
+    padding: 4px 8px 4px 8px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+.article__favorite{
+    position: absolute;
+    border: none;
+    top: 8px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    opacity: 0.5;
+    background: #F3F2F1;
+    cursor: pointer;
+}
+
+.articles{
+    display: flex;
+}
+
+/* .favorite__heart_img:hover{
+    src: url(./img/heart_red.png);
+    transition: 0.5s;
+} */

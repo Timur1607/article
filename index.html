@@ -7,30 +7,108 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <article class="article">
-        <img class="aricle__img" src="./img/picture.webp" alt="pancakes">
-        <div class="info">
-            <div class="article__price price">
-                <div class="price__card card">
-                    <p class="card__price">44,50 Р</p>
-                    <p class="card__info">С картой</p>
-
+    <section class="articles">
+        <article class="article">
+            <div class="article__top">
+                <img class="aricle__img" src="./img/picture.webp" alt="блины">
+                <div class="article__discount">
+                    <p>-50%</p>
                 </div>
-                <div class="price__nocard">
-                    <p class="nocard__price">50,50 Р</p>
-                    <p class="nocard__info">Обычная</p>
+                <button class="article__favorite favorite">
+                    <a class="favorite__heart" href="#articles">
+                        <img class="favorite__heart_img" src="./img/heart.svg" alt="heart">
+                    </a>
+                </button>
+            </div>
+            <div class="info">
+                <div class="article__price price">
+                    <div class="price__card card">
+                        <p class="card__price">44,50 Р</p>
+                        <p class="card__info">С картой</p>
+    
+                    </div>
+                    <div class="price__nocard">
+                        <p class="nocard__price">50,50 Р</p>
+                        <p class="nocard__info">Обычная</p>
+                    </div>
                 </div>
+                <p class="article__info">Г/Ц Блинчики с мясом вес, Россия</p>
+                <div class="article__stars">
+                    <img class="star__orange" src="./img/star_orange.svg" alt="orange_star">
+                    <img class="star__orange" src="./img/star_orange.svg" alt="orange_star">
+                    <img class="star__gray" src="./img/star_gray.svg" alt="gray_star">
+                    <img class="star__gray" src="./img/star_gray.svg" alt="gray_star">
+                    <img class="star__gray" src="./img/star_gray.svg" alt="gray_star">
+                </div>
+                <button class="article__button">В корзину</button>
             </div>
-            <p class="article__info">Г/Ц Блинчики с мясом вес, Россия</p>
-            <div class="article__stars">
-                <img class="star__orange" src="./img/orange_star.webp" alt="orange_star">
-                <img class="star__orange" src="./img/orange_star.webp" alt="orange_star">
-                <img class="star__gray" src="./img/gray_star.webp" alt="gray_star">
-                <img class="star__gray" src="./img/gray_star.webp" alt="gray_star">
-                <img class="star__gray" src="./img/gray_star.webp" alt="gray_star">
+        </article>
+        <article class="article">
+            <div class="article__top">
+                <img class="aricle__img" src="./img/cake.webp" alt="торт">
+                <div class="article__discount">
+                    <p>-30%</p>
+                </div>
+                <button class="article__favorite">
+                    <img src="./img/heart.svg" alt="heart">
+                </button>
             </div>
-            <button class="article__button">В корзину</button>
-        </div>
-    </article>
+            <div class="info">
+                <div class="article__price price">
+                    <div class="price__card card">
+                        <p class="card__price">650 Р</p>
+                        <p class="card__info">С картой</p>
+    
+                    </div>
+                    <div class="price__nocard">
+                        <p class="nocard__price">700 Р</p>
+                        <p class="nocard__info">Обычная</p>
+                    </div>
+                </div>
+                <p class="article__info">Торт "Красный бархат",<br> Россия</p>
+                <div class="article__stars">
+                    <img class="star__orange" src="./img/star_orange.svg" alt="orange_star">
+                    <img class="star__orange" src="./img/star_orange.svg" alt="orange_star">
+                    <img class="star__orange" src="./img/star_orange.svg" alt="orange_star">
+                    <img class="star__orange" src="./img/star_orange.svg" alt="orange_star">
+                    <img class="star__gray" src="./img/star_gray.svg" alt="gray_star">
+                </div>
+                <button class="article__button">В корзину</button>
+            </div>
+        </article>
+        <article class="article">
+            <div class="article__top">
+                <img class="aricle__img" src="./img/croissant.webp" alt="круассан">
+                <div class="article__discount">
+                    <p>-25%</p>
+                </div>
+                <button class="article__favorite">
+                    <img src="./img/heart.svg" alt="heart">
+                </button>
+            </div>
+            <div class="info">
+                <div class="article__price price">
+                    <div class="price__card card">
+                        <p class="card__price">70 Р</p>
+                        <p class="card__info">С картой</p>
+    
+                    </div>
+                    <div class="price__nocard">
+                        <p class="nocard__price">75 Р</p>
+                        <p class="nocard__info">Обычная</p>
+                    </div>
+                </div>
+                <p class="article__info">Круассан из слоеного теста, Россия</p>
+                <div class="article__stars">
+                    <img class="star__orange" src="./img/star_orange.svg" alt="orange_star">
+                    <img class="star__orange" src="./img/star_orange.svg" alt="orange_star">
+                    <img class="star__orange" src="./img/star_orange.svg" alt="orange_star">
+                    <img class="star__gray" src="./img/star_gray.svg" alt="gray_star">
+                    <img class="star__gray" src="./img/star_gray.svg" alt="gray_star">
+                </div>
+                <button class="article__button">В корзину</button>
+            </div>
+        </article>
+    </section>
 </body>
 </html>
