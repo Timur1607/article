@@ -15,7 +15,7 @@
 .article{
     width: 272px;
     height: 349px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* padding: 8px; */
     border-radius: 4px;
 }
@@ -24,6 +24,7 @@
     width: 100%;
     height: 160px;
     overflow: hidden;
+    border-radius: 4px 4px 0 0;
 }
 .price__card{
     display: block;
