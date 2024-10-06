@@ -18,6 +18,7 @@
     /* border: 1px solid black; */
     /* padding: 8px; */
     border-radius: 4px;
+    box-shadow: 0 0 5px;
 }
 .aricle__img{
     max-width: 272px;
@@ -167,10 +168,13 @@
 }
 
 .articles{
+    margin-top: 15px;
     display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
-/* .favorite__heart_img:hover{
-    src: url(./img/heart_red.png);
-    transition: 0.5s;
-} */
+.favorite__heart_img:hover path{ 
+    fill: red;
+    background-color: #F3F2F1;
+}
